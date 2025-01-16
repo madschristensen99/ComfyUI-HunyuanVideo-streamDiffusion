@@ -1,12 +1,39 @@
 # ComfyUI + Hunyuan + Streaming
-This is a highly experimental method for developing livestreams. Hunyuan model is effective in blocking, general world modeling, but fails at actor likeness. Stream Diffusion relies on base images but can effecivley turn videos that dont look like the actor into videos that look like the actor. So combining them creates streams that adhere to actor likeness. However, because quality Hunyuan generations are 5 seconds and each one takes about 380 seconds to generate, generating hunyuan videos live requires about 75 a100 gpus making it impossible to actually run this concept at this time. 
 
-https://github.com/cumulo-autumn/StreamDiffusion
+**A highly experimental method for developing livestreams using ComfyUI, Hunyuan, and Stream Diffusion.**
 
-The key addition of my work is 
-hunyuanWorkflow.json
-which is a workflow I outline in the video
+This project explores the combination of the **Hunyuan model** (effective for blocking and general world modeling) and **Stream Diffusion** (effective for actor likeness transformation) to create livestreams that adhere to actor likeness. However, due to the computational intensity of generating high-quality Hunyuan videos (5 seconds per generation, ~380 seconds per generation), running this concept live currently requires approximately **75 A100 GPUs**, making it impractical at this time.
 
+---
+
+## Overview
+The Hunyuan model excels at blocking and general world modeling but struggles with actor likeness. Stream Diffusion, on the other hand, can transform videos that don't resemble the actor into videos that do. By combining these two approaches, this project aims to create livestreams that maintain actor likeness while leveraging the strengths of both models.
+
+---
+
+## Key Features
+- **Hunyuan Model**: Effective for blocking and world modeling.
+- **Stream Diffusion**: Transforms videos to adhere to actor likeness.
+- **ComfyUI Integration**: Streamlines the workflow for experimental livestream development.
+- **hunyuanWorkflow.json**: A custom workflow configuration for integrating Hunyuan and Stream Diffusion.
+
+---
+
+## Workflow
+The core of this project is the `hunyuanWorkflow.json` file, which outlines the integration of Hunyuan and Stream Diffusion within ComfyUI. This workflow is designed to:
+1. Generate base videos using the Hunyuan model.
+2. Apply Stream Diffusion to enhance actor likeness.
+3. Combine the outputs for a cohesive livestream.
+
+### Video Demonstration
+<!-- Replace the placeholder below with an embedded video or a link to a video -->
+🎥 **[Video Placeholder]**  
+*Insert your video here. You can use a platform like YouTube, Vimeo, or Loom to host the video and embed it using Markdown or HTML.*
+
+---
+
+## Usage
+In runpod, use the thelocallab/hunyuan-comfyui template. It takes a half our to load. Then in comfyUI, you can load the hunyuanWorkflow.json 
 
 
 # Everything below this was original when I forked
