@@ -27,7 +27,7 @@ The core of this project is the `hunyuanWorkflow.json` file, which outlines the 
 
 ### Video Demonstration
 <!-- Replace the placeholder below with an embedded video or a link to a video -->
-🎥 **[Video Placeholder]**  
+🎥 **[[Video Placeholder](https://www.youtube.com/watch?v=54RYwTB-THg)]**  
 *Insert your video here. You can use a platform like YouTube, Vimeo, or Loom to host the video and embed it using Markdown or HTML.*
 
 ---
