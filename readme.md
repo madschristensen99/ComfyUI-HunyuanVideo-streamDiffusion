@@ -1,5 +1,5 @@
 # ComfyUI + Hunyuan + Streaming
-This is a highly experimental method for developing livestreams. Hunyuan model is effective in blocking, general world modeling, but fails at actor likeness. Stream Diffusion relies on base images but can effecivley turn videos that dont look like the actor into videos that look like the actor. So combining them creates streams that adhere to actor likeness. However, because the Hunyuan generations are 5 seconds and each one takes about 380 seconds to generate, generating hunyuan videos live requires about 75 a100 gpus making it impossible to actually run this concept at this time. 
+This is a highly experimental method for developing livestreams. Hunyuan model is effective in blocking, general world modeling, but fails at actor likeness. Stream Diffusion relies on base images but can effecivley turn videos that dont look like the actor into videos that look like the actor. So combining them creates streams that adhere to actor likeness. However, because quality Hunyuan generations are 5 seconds and each one takes about 380 seconds to generate, generating hunyuan videos live requires about 75 a100 gpus making it impossible to actually run this concept at this time. 
 
 # Everything below this was original when I forked
 
