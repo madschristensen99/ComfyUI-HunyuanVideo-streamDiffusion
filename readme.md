@@ -21,9 +21,9 @@ The Hunyuan model excels at blocking and general world modeling but struggles wi
 
 ## Workflow
 The core of this project is the `hunyuanWorkflow.json` file, which outlines the integration of Hunyuan and Stream Diffusion within ComfyUI. This workflow is designed to:
-1. Generate base videos using the Hunyuan model.
-2. Apply Stream Diffusion to enhance actor likeness.
-3. Combine the outputs for a cohesive livestream.
+1. Generate base videos using the Hunyuan model. -- DONE
+2. Apply Stream Diffusion to enhance actor likeness. -- WORKING ON IT - | [![StreamDiffusion Repository](https://img.shields.io/badge/GitHub-StreamDiffusion-blue?style=for-the-badge&logo=github)](https://github.com/cumulo-autumn/StreamDiffusion)
+3. Combine the outputs for a cohesive livestream. -- TODO
 
 ### Video Demonstration
 <!-- Replace the placeholder below with an embedded video or a link to a video -->
